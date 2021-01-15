@@ -1,9 +1,7 @@
 # ParsingFrisian
-Code for the project: Annotating and parsing spoken Frisian-Dutch code-switched data
-
+Code for the project: Challenges in Annotating and Parsing Spoken, Code-switched, Frisian-Dutch data.
 
 ## Data Selection
-
 
 ## Additional Experiments
 
