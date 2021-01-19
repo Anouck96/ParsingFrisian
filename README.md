@@ -41,7 +41,13 @@ python3 replace.py --files input.conllu --replacefile outputorph.conllu --writef
 ```
 
 ## Evaluation
+evalAccuracy.py calculates LAS, UAS, POS scores, accuracy over all labels and creates a confusion matrix. It writes the confusion matrix for the dependency relations to a csv file.
 
+```
+python3 evalAccuracy.py file1.conllu file2.conllu
+```
+
+createScoreLists
 ## Outputs
 In this directory all conllu outputs that are discussed in the paper can be found.
 
