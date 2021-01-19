@@ -47,7 +47,18 @@ evalAccuracy.py calculates LAS, UAS, POS scores, accuracy over all labels and cr
 python3 evalAccuracy.py file1.conllu file2.conllu
 ```
 
-createScoreLists
+createScoreListsDEV.py creates files for UAS, LAS, POS scores per sentence over five runs (5 random seeds) which can be used to run a bootstrap significance test.
+
+```
+python3 createScoreListsDEV.py gold.conllu run1.conllu run2.conllu run3.conllu run4.conllu run5.conllu
+```
+
+Test does the same but only for the goldfile and one run. In the program you should change datagold to your goldfile and datasystem to your systems output file.
+
+```
+python3 createScoreLists.py
+```
+
 ## Outputs
 In this directory all conllu outputs that are discussed in the paper can be found.
 
