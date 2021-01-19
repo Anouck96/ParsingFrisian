@@ -11,7 +11,11 @@ python3
 ### Creating a new conllu file
 
 ## Additional Experiments
+### Diacritics
+### Adding Orphans
 
 ## Evaluation
 
 ## Outputs
+### Development
+### Test
