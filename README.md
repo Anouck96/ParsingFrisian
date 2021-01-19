@@ -26,7 +26,19 @@ python3 get_conllu.py --filew out.csv --numSents 2000
 
 ## Additional Experiments
 ### Diacritics
+translit.py removes diacritics from the sentences. It also counts the occurences.
+
+```
+python3 translit.py --files input.conllu --writefile output.conllu
+```
+
 ### Adding Orphans
+The first program orphan_select.py selects sentences and creates new sentences with orphan relations. It writes them to a new file. The output should be used in replace.py. This program replaces a number of the sentences in the original file with the newly created sentences.
+
+```
+python3 orphan_select.py --files input.conllu --writefile outputorph.conllu
+python3 replace.py --files input.conllu --replacefile outputorph.conllu --writefile outputreplace.conllu
+```
 
 ## Evaluation
 
