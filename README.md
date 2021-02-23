@@ -1,6 +1,6 @@
 # ParsingFrisian
 Code for the project: Challenges in Annotating and Parsing Spoken, Code-switched, Frisian-Dutch data. </br>
-The code is run on data from the Fame! project by Yilmaz et al. (2016). The sentences in the output are thus from this corpus.
+The code is run on data from the Fame! corpus by Yilmaz et al. (2016). The sentences in the output are thus from this corpus.
 
 ## Data Selection
 ### Selection of Frisian data
