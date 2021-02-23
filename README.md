@@ -68,4 +68,4 @@ For the experiments we used MaChAmp from Van der Goot (2020). The specific commi
 
 ## References
 * van der Goot, R., Üstün, A., Ramponi, A., & Plank, B. (2020). Massive Choice, Ample Tasks (MaChAmp): A Toolkit for Multi-task Learning in NLP. arXiv preprint arXiv:2005.14672.
-* Yilmaz, E., Andringa, M., Kingma, S., Dijkstra, J., van der Kuip, F., van de Velde, H., Kampstra, F., Algra, J., van den Heuvel, H., van Leeuwen, D. (2016). A longitudinal bilingual Frisian-Dutch radio broadcast database desgined for code-wwitching research. Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16).
+* Yilmaz, E., Andringa, M., Kingma, S., Dijkstra, J., van der Kuip, F., van de Velde, H., Kampstra, F., Algra, J., van den Heuvel, H., van Leeuwen, D. (2016). A longitudinal bilingual Frisian-Dutch radio broadcast database desgined for code-switching research. Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16).
