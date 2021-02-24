@@ -63,7 +63,7 @@ python3 createScoreLists.py
 ## Outputs
 In this directory all conllu outputs that are discussed in the paper can be found.
 
-For the experiments we used MaChAmp from Van der Goot (2020). The specific commit that was used can be found in gitlogmtp.txt.
+For the experiments in the paper, we used an internal version of [MaChAmp](https://github.com/machamp-nlp/machamp) from [van der Goot et al. (2020)](https://arxiv.org/abs/2005.14672). The specific commit that was used can be found in gitlogmtp.txt, and the repository is [mtp](https://bitbucket.org/ahmetustunn/mtp/src). However, the code will also work with MaChAmp release 0.2.
 
 
 ## References
