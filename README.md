@@ -2,7 +2,7 @@
 Code for the project: Challenges in Annotating and Parsing Spoken, Code-switched, Frisian-Dutch data. </br>
 The code is run on data from the Fame! corpus by Yilmaz et al. (2016). The sentences in the output are thus from this corpus.
 
-## Data Selection
+## Data Selection & Data
 ### Selection of Frisian data
 This program was used to extract Frisian sentences that we did not use in our own development and test set. In the program the file is the conllu file that contained our selection of sentences. The trainfile is the file that the program should extract the sentences from and sentences is the file that the program should write the raw data to. It can simply be run by:
 
@@ -10,6 +10,8 @@ This program was used to extract Frisian sentences that we did not use in our ow
 python3 getfy.py
 ```
 
+## Data directory
+In this directory the original split and annotations can be found. Due to UD validation these annotations are slightly different than the ones that will be in the upcoming UD-treebank. For the experiments, these annotations and this data split is used.
 
 ### LDA
 This program takes as input conllu files and a textfile with raw sentences and finds the sentences that are most similar to the sentences in the textfile. An additional argument can be used: --maxSents. The default is 1000 sentences. The output is both a scatterplot and a csv file with the ordered sentences starting with the most similar sentence.
